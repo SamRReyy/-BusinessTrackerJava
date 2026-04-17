@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_card">#1E293B</color>
+    <color name="bg_main">#0F172A</color>
+    <color name="divider">#334155</color>
+    <color name="nav_selected">#10b981</color>
+    <color name="nav_unselected">#94A3B8</color>
+    <color name="text_on_bg_primary">#FFFFFF</color>
+    <color name="text_on_bg_secondary">#94A3B8</color>
+    <color name="text_on_card_primary">#FFFFFF</color>
+    <color name="text_on_card_secondary">#94A3B8</color>
+    <style name="Theme.BusinessTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/emerald_500</item>
+        <item name="colorPrimaryVariant">@color/emerald_600</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">#111827</item>
+    </style>
+    <style name="Theme.BusinessTracker.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">#111827</item>
+    </style>
+</resources>

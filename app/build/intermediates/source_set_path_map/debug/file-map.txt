@@ -1,0 +1,63 @@
+com.businesstracker.app-lifecycle-service-2.7.0-0 C:\Users\Admin\.gradle\caches\transforms-3\08ed364abe62cb44d2fed0f0e25cd906\transformed\lifecycle-service-2.7.0\res
+com.businesstracker.app-customview-poolingcontainer-1.0.0-1 C:\Users\Admin\.gradle\caches\transforms-3\0dc52a1a904cf4005e64d41aeb7d0cec\transformed\customview-poolingcontainer-1.0.0\res
+com.businesstracker.app-play-services-measurement-api-21.5.1-2 C:\Users\Admin\.gradle\caches\transforms-3\0ea5af18342bd6be481b47dbee7eddec\transformed\play-services-measurement-api-21.5.1\res
+com.businesstracker.app-sqlite-framework-2.3.0-3 C:\Users\Admin\.gradle\caches\transforms-3\118dcf64ea19efb0f32034aa083086ca\transformed\sqlite-framework-2.3.0\res
+com.businesstracker.app-lifecycle-viewmodel-ktx-2.7.0-4 C:\Users\Admin\.gradle\caches\transforms-3\12f62a2d6f04ebebfb7a271222f9cc7d\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.businesstracker.app-cardview-1.0.0-5 C:\Users\Admin\.gradle\caches\transforms-3\138a9e1bf76d98f789e04375be4ced41\transformed\cardview-1.0.0\res
+com.businesstracker.app-room-ktx-2.5.0-6 C:\Users\Admin\.gradle\caches\transforms-3\1701267cf163b8bfec1ff0ee7104a8b3\transformed\room-ktx-2.5.0\res
+com.businesstracker.app-drawerlayout-1.1.1-7 C:\Users\Admin\.gradle\caches\transforms-3\1b5c7c4dcc54bdc30d96053187eb0ca0\transformed\drawerlayout-1.1.1\res
+com.businesstracker.app-material-1.11.0-8 C:\Users\Admin\.gradle\caches\transforms-3\22578eb093c642a310f7cdadf58976ac\transformed\material-1.11.0\res
+com.businesstracker.app-lifecycle-viewmodel-savedstate-2.7.0-9 C:\Users\Admin\.gradle\caches\transforms-3\262ada013654e4d60f4156a5a7b95caf\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.businesstracker.app-recyclerview-1.3.2-10 C:\Users\Admin\.gradle\caches\transforms-3\2ca0530bd993a2aadb8d9bdf142755a9\transformed\recyclerview-1.3.2\res
+com.businesstracker.app-savedstate-1.2.1-11 C:\Users\Admin\.gradle\caches\transforms-3\32fed9ae13715667b29e2df075d0d15e\transformed\savedstate-1.2.1\res
+com.businesstracker.app-firebase-common-20.4.2-12 C:\Users\Admin\.gradle\caches\transforms-3\33754c23a4c8b373cd50b4f378c18da1\transformed\firebase-common-20.4.2\res
+com.businesstracker.app-play-services-auth-21.0.0-13 C:\Users\Admin\.gradle\caches\transforms-3\3e357df51f508c47e1ff666c59c42052\transformed\play-services-auth-21.0.0\res
+com.businesstracker.app-fragment-ktx-1.6.2-14 C:\Users\Admin\.gradle\caches\transforms-3\4148ec3f914a3dc5b3db18e0f73bc096\transformed\fragment-ktx-1.6.2\res
+com.businesstracker.app-appcompat-resources-1.6.1-15 C:\Users\Admin\.gradle\caches\transforms-3\4615dc7cdb21983618f2973b1b3bcf2c\transformed\appcompat-resources-1.6.1\res
+com.businesstracker.app-lifecycle-livedata-core-ktx-2.7.0-16 C:\Users\Admin\.gradle\caches\transforms-3\49deba27bbed3088fc4c74d984e79842\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.businesstracker.app-startup-runtime-1.1.1-17 C:\Users\Admin\.gradle\caches\transforms-3\61f2a9d83bd84e4f02fa9825b816f122\transformed\startup-runtime-1.1.1\res
+com.businesstracker.app-play-services-basement-18.2.0-18 C:\Users\Admin\.gradle\caches\transforms-3\647d7edf652ad30527a7739be50d4486\transformed\play-services-basement-18.2.0\res
+com.businesstracker.app-core-1.9.0-19 C:\Users\Admin\.gradle\caches\transforms-3\653719141696bd4bcbcc12ecdfbe4137\transformed\core-1.9.0\res
+com.businesstracker.app-appcompat-1.6.1-20 C:\Users\Admin\.gradle\caches\transforms-3\655389d927aea35f4be673d8560d8bc6\transformed\appcompat-1.6.1\res
+com.businesstracker.app-lifecycle-process-2.7.0-21 C:\Users\Admin\.gradle\caches\transforms-3\659c6c9d0ac174e5624384baea07a4a6\transformed\lifecycle-process-2.7.0\res
+com.businesstracker.app-transition-1.4.1-22 C:\Users\Admin\.gradle\caches\transforms-3\681c59d0733272aecfab7dab8cb8bc83\transformed\transition-1.4.1\res
+com.businesstracker.app-sqlite-2.3.0-23 C:\Users\Admin\.gradle\caches\transforms-3\6964f5589cad88cc030585428c5d55a5\transformed\sqlite-2.3.0\res
+com.businesstracker.app-room-runtime-2.5.0-24 C:\Users\Admin\.gradle\caches\transforms-3\6a99c9df3d1416409d37003abcecfc02\transformed\room-runtime-2.5.0\res
+com.businesstracker.app-activity-ktx-1.8.0-25 C:\Users\Admin\.gradle\caches\transforms-3\6befd376b67bbcd8a9bcc86c8a6c3e36\transformed\activity-ktx-1.8.0\res
+com.businesstracker.app-browser-1.4.0-26 C:\Users\Admin\.gradle\caches\transforms-3\6c2a2b6c10020251e5951358296b0e88\transformed\browser-1.4.0\res
+com.businesstracker.app-savedstate-ktx-1.2.1-27 C:\Users\Admin\.gradle\caches\transforms-3\6f75b1861cb914a6de252b12d9343299\transformed\savedstate-ktx-1.2.1\res
+com.businesstracker.app-lifecycle-runtime-ktx-2.7.0-28 C:\Users\Admin\.gradle\caches\transforms-3\6f76be8d00c6a06954546090530e9d44\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.businesstracker.app-navigation-fragment-2.7.6-29 C:\Users\Admin\.gradle\caches\transforms-3\71bbe207a01fc079c7919872ac0370ce\transformed\navigation-fragment-2.7.6\res
+com.businesstracker.app-work-runtime-2.9.0-30 C:\Users\Admin\.gradle\caches\transforms-3\7588ae0fbaaefbf5d4146136744d529c\transformed\work-runtime-2.9.0\res
+com.businesstracker.app-lifecycle-runtime-2.7.0-31 C:\Users\Admin\.gradle\caches\transforms-3\772faf3ff15168434b0e250ea28ecf64\transformed\lifecycle-runtime-2.7.0\res
+com.businesstracker.app-ads-adservices-1.0.0-beta05-32 C:\Users\Admin\.gradle\caches\transforms-3\7ad21c20c4023c76c3323da21125d1c6\transformed\ads-adservices-1.0.0-beta05\res
+com.businesstracker.app-constraintlayout-2.1.4-33 C:\Users\Admin\.gradle\caches\transforms-3\7f92fd0c87693c55a005a000797e6f9f\transformed\constraintlayout-2.1.4\res
+com.businesstracker.app-lifecycle-viewmodel-2.7.0-34 C:\Users\Admin\.gradle\caches\transforms-3\7fb64b18a637f2d7a9fd2018129a4e6a\transformed\lifecycle-viewmodel-2.7.0\res
+com.businesstracker.app-lifecycle-livedata-core-2.7.0-35 C:\Users\Admin\.gradle\caches\transforms-3\809d19dfd1b278fc6a0f775145a1efd1\transformed\lifecycle-livedata-core-2.7.0\res
+com.businesstracker.app-activity-1.8.0-36 C:\Users\Admin\.gradle\caches\transforms-3\8f2650c96be0b3ae1b0ac25359c8259a\transformed\activity-1.8.0\res
+com.businesstracker.app-slidingpanelayout-1.2.0-37 C:\Users\Admin\.gradle\caches\transforms-3\93ef6cc1b05591cd4918441f70fdcd7d\transformed\slidingpanelayout-1.2.0\res
+com.businesstracker.app-emoji2-views-helper-1.2.0-38 C:\Users\Admin\.gradle\caches\transforms-3\a6aae9fce736974a14ba92198a7bfc53\transformed\emoji2-views-helper-1.2.0\res
+com.businesstracker.app-annotation-experimental-1.3.0-39 C:\Users\Admin\.gradle\caches\transforms-3\ab608ae023288acd762ac8d5ee2954a8\transformed\annotation-experimental-1.3.0\res
+com.businesstracker.app-navigation-common-2.7.6-40 C:\Users\Admin\.gradle\caches\transforms-3\abdd0afada3da800062ab0c5d87ff92b\transformed\navigation-common-2.7.6\res
+com.businesstracker.app-ads-adservices-java-1.0.0-beta05-41 C:\Users\Admin\.gradle\caches\transforms-3\b62d588e30061c8742235653a8d9fa5d\transformed\ads-adservices-java-1.0.0-beta05\res
+com.businesstracker.app-navigation-runtime-2.7.6-42 C:\Users\Admin\.gradle\caches\transforms-3\c75406113ca5a3827522038db9555644\transformed\navigation-runtime-2.7.6\res
+com.businesstracker.app-fragment-1.6.2-43 C:\Users\Admin\.gradle\caches\transforms-3\c7e3164b475ea53dea283e09f3abfc68\transformed\fragment-1.6.2\res
+com.businesstracker.app-profileinstaller-1.3.0-44 C:\Users\Admin\.gradle\caches\transforms-3\d0c4b78350c5b42a49aa0fa2b9981fa2\transformed\profileinstaller-1.3.0\res
+com.businesstracker.app-viewpager2-1.1.0-beta02-45 C:\Users\Admin\.gradle\caches\transforms-3\d238223400d557700dfcd3fd15cf9f0e\transformed\viewpager2-1.1.0-beta02\res
+com.businesstracker.app-core-ktx-1.9.0-46 C:\Users\Admin\.gradle\caches\transforms-3\d514b0a043b6e3b9b153992513eeeee7\transformed\core-ktx-1.9.0\res
+com.businesstracker.app-emoji2-1.2.0-47 C:\Users\Admin\.gradle\caches\transforms-3\da7c9dea87300b0acc495ab079e04358\transformed\emoji2-1.2.0\res
+com.businesstracker.app-glide-4.16.0-48 C:\Users\Admin\.gradle\caches\transforms-3\e08a6af34536e9d7f01007f9f0d8ac11\transformed\glide-4.16.0\res
+com.businesstracker.app-window-1.0.0-49 C:\Users\Admin\.gradle\caches\transforms-3\e5e004007a32548a635fcf75fc8d8bb0\transformed\window-1.0.0\res
+com.businesstracker.app-navigation-ui-2.7.6-50 C:\Users\Admin\.gradle\caches\transforms-3\edc64ee7e6ee4d0a48d77a5fcf87be40\transformed\navigation-ui-2.7.6\res
+com.businesstracker.app-lifecycle-livedata-2.7.0-51 C:\Users\Admin\.gradle\caches\transforms-3\ee56816eb027376dad419ea231b5102f\transformed\lifecycle-livedata-2.7.0\res
+com.businesstracker.app-play-services-base-18.1.0-52 C:\Users\Admin\.gradle\caches\transforms-3\ef164014c57f0cf79f3d509ded0e3aec\transformed\play-services-base-18.1.0\res
+com.businesstracker.app-coordinatorlayout-1.1.0-53 C:\Users\Admin\.gradle\caches\transforms-3\f1b8ac505235d20bfe9db1661525c010\transformed\coordinatorlayout-1.1.0\res
+com.businesstracker.app-core-runtime-2.2.0-54 C:\Users\Admin\.gradle\caches\transforms-3\f682fdb83a0fff2c2d60f7353bc93137\transformed\core-runtime-2.2.0\res
+com.businesstracker.app-pngs-55 D:\app dev final\BusinessTrackerApp_Java_Final (1)\BusinessTrackerJava\app\build\generated\res\pngs\debug
+com.businesstracker.app-res-56 D:\app dev final\BusinessTrackerApp_Java_Final (1)\BusinessTrackerJava\app\build\generated\res\processDebugGoogleServices
+com.businesstracker.app-resValues-57 D:\app dev final\BusinessTrackerApp_Java_Final (1)\BusinessTrackerJava\app\build\generated\res\resValues\debug
+com.businesstracker.app-packageDebugResources-58 D:\app dev final\BusinessTrackerApp_Java_Final (1)\BusinessTrackerJava\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.businesstracker.app-packageDebugResources-59 D:\app dev final\BusinessTrackerApp_Java_Final (1)\BusinessTrackerJava\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.businesstracker.app-merged_res-60 D:\app dev final\BusinessTrackerApp_Java_Final (1)\BusinessTrackerJava\app\build\intermediates\merged_res\debug
+com.businesstracker.app-debug-61 D:\app dev final\BusinessTrackerApp_Java_Final (1)\BusinessTrackerJava\app\src\debug\res
+com.businesstracker.app-main-62 D:\app dev final\BusinessTrackerApp_Java_Final (1)\BusinessTrackerJava\app\src\main\res

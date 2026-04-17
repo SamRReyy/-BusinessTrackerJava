@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1048341954329",
+    "project_id": "businesstracker-33271",
+    "storage_bucket": "businesstracker-33271.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048341954329:android:a3ec363fb4ce7022a0cf88",
+        "android_client_info": {
+          "package_name": "com.businesstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048341954329-19s46a4f3a6sjg4a1hva7hng2b99dlpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.businesstracker",
+            "certificate_hash": "a2df0845c8cb62b00252efc5adc596bb569e0e2f"
+          }
+        },
+        {
+          "client_id": "1048341954329-2i5p159dbdb0j9rfb4plp5slf6b4mk4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTUeRYM626odmo11UzT0_RWF_Wfo3FXrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048341954329-2i5p159dbdb0j9rfb4plp5slf6b4mk4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

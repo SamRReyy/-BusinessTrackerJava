@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_dialog_full_photo.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_full_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_business.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_business.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_selector_color_green.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\selector_color_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_app_logo.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\app_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_selector_color_purple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\selector_color_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_activity_business_detail.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_business_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_task.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_dialog_archived_list.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_archived_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\color_nav_item_color.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\color\\nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_setting_toggle.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_setting_toggle.xml"
+    },
+    {
+        "merged": "com.businesstracker.app-merged_res-60:/layout_fragment_profile.xml.flat",
+        "source": "com.businesstracker.app-main-62:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_bg_spinner.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\bg_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_bg_color_dot.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\bg_color_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_dialog_add_business.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_add_business.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_dialog_add_expense.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_add_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_layout_profile_popup.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\layout_profile_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_bg_chip_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\bg_chip_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_ic_google.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\ic_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_dialog_add_sale.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_add_sale.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_bg_logo_circle.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\bg_logo_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_bg_stat_box.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\bg_stat_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_dialog_edit_business.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_edit_business.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_sale.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_sale.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_bg_nav_selected.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\bg_nav_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_selector_color_rose.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\selector_color_rose.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_selector_color_amber.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\selector_color_amber.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_dialog_add_task.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_add_task.xml"
+    },
+    {
+        "merged": "com.businesstracker.app-merged_res-60:/layout_activity_business_detail.xml.flat",
+        "source": "com.businesstracker.app-main-62:/layout/activity_business_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_notification.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_bg_badge_rounded.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\bg_badge_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_expense.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_selector_color_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\selector_color_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_ic_eye.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\ic_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_bg_avatar_circle.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\drawable\\bg_avatar_circle.xml"
+    }
+]

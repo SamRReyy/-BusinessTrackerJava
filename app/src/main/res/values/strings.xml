@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Business Tracker</string>
+    <string name="default_web_client_id">1048341954329-2i5p159dbdb0j9rfb4plp5slf6b4mk4l.apps.googleusercontent.com</string>
+
+    <!-- General Actions -->
+    <string name="action_add">Add</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_delete_business">Delete Business</string>
+    <string name="action_restore">Restore</string>
+    <string name="action_delete_permanently">Delete Permanently</string>
+    <string name="action_close">Close</string>
+    <string name="action_download">Download</string>
+    <string name="action_archive">Archive</string>
+    <string name="action_clear_data">Clear Data</string>
+
+    <!-- Toasts -->
+    <string name="toast_expense_deleted">Expense deleted</string>
+    <string name="toast_task_deleted">Task deleted</string>
+    <string name="toast_sale_deleted">Sale deleted</string>
+    <string name="toast_expense_added">Expense added!</string>
+    <string name="toast_task_added">Task added!</string>
+    <string name="toast_sale_recorded">Sale recorded!</string>
+    <string name="toast_business_updated">Business updated!</string>
+    <string name="toast_required_fields">Type and amount are required</string>
+    <string name="toast_invalid_amount">Invalid amount</string>
+    <string name="toast_invalid_total_amount">Invalid total amount</string>
+    <string name="toast_title_required">Title is required</string>
+    <string name="toast_name_required">Name required</string>
+    <string name="toast_sale_required_fields">Product name and Total Received are required</string>
+    <string name="toast_event_added_calendar">Event added to Calendar!</string>
+    <string name="failed_to_load_image">Failed to load image</string>
+    <string name="failed_to_save_photo">Failed to save photo</string>
+    <string name="photo_saved_gallery">Photo saved to Gallery</string>
+    <string name="toast_profile_updated">Profile updated!</string>
+    <string name="toast_all_data_cleared">All data cleared</string>
+    <string name="toast_business_restored">Business restored</string>
+    <string name="toast_business_deleted_permanently">Business deleted permanently</string>
+
+    <!-- Google Services & Download -->
+    <string name="google_sign_in_required_export">Please sign in with Google to download report</string>
+    <string name="generating_pdf_uploading">Generating PDF and uploading to Drive...</string>
+    <string name="report_uploaded_drive">Report uploaded to Drive!</string>
+    <string name="upload_failed_prefix">Upload failed: </string>
+    <string name="export_failed_prefix">Download failed: </string>
+    <string name="failed_add_calendar_prefix">Failed to add to Calendar: </string>
+
+    <!-- Statuses -->
+    <string name="status_over_budget">Over Budget</string>
+    <string name="status_near_limit">Near Limit</string>
+    <string name="status_on_track">On Track</string>
+
+    <!-- Table Headers -->
+    <string name="header_date">Date</string>
+    <string name="header_type">Type</string>
+    <string name="header_description">Description</string>
+    <string name="header_photo">Photo</string>
+    <string name="header_amount">Amount</string>
+    <string name="header_done">Done</string>
+    <string name="header_title">Title</string>
+    <string name="header_due_date">Due Date</string>
+
+    <!-- Empty States -->
+    <string name="empty_expenses">No expenses yet. Tap + to add one.</string>
+    <string name="empty_tasks">No tasks yet. Tap + to add one.</string>
+    <string name="empty_sales">No sales recorded yet. Tap + to add one.</string>
+
+    <!-- Dialog Titles & Messages -->
+    <string name="dialog_delete_expense_title">Delete Expense?</string>
+    <string name="dialog_delete_expense_message">This expense will be permanently removed.</string>
+    <string name="dialog_delete_task_title">Delete Task?</string>
+    <string name="dialog_delete_task_message">This task will be permanently removed.</string>
+    <string name="dialog_delete_sale_title">Delete Sale?</string>
+    <string name="dialog_delete_sale_message">This will remove the sale record and decrease revenue.</string>
+    <string name="dialog_add_expense_title">Add Expense</string>
+    <string name="dialog_edit_expense_title">Edit Expense</string>
+    <string name="dialog_add_task_title">Add Task</string>
+    <string name="dialog_edit_task_title">Edit Task</string>
+    <string name="dialog_add_sale_title">Add Sale</string>
+    <string name="dialog_edit_business_title">Edit Business</string>
+    <string name="dialog_delete_business_title">Delete Business?</string>
+    <string name="dialog_delete_business_message_prefix">This will permanently delete \"</string>
+    <string name="dialog_delete_business_message_suffix">\" and all its data.</string>
+    <string name="dialog_add_calendar_title">Add to Calendar?</string>
+    <string name="dialog_add_calendar_message">Would you like to add this task to your Google Calendar?</string>
+    <string name="dialog_danger_zone_title">Danger Zone</string>
+    <string name="dialog_clear_all_data_message">This will clear all your data. This action cannot be undone.</string>
+    <string name="action_clear_everything">Clear Everything</string>
+    <string name="dialog_manage_archived_title">Manage Archived Business</string>
+    <string name="dialog_choose_action_prefix">Choose action for \"</string>
+    <string name="dialog_permanent_delete_title">Permanent Delete?</string>
+    <string name="dialog_permanent_delete_warning_prefix">Are you sure you want to permanently delete \"</string>
+    <string name="dialog_permanent_delete_warning_suffix">This cannot be undone.</string>
+
+    <!-- Date Pickers -->
+    <string name="select_expense_date">Select Expense Date</string>
+    <string name="select_due_date">Select Due Date</string>
+    <string name="select_sale_date">Select Sale Date</string>
+
+    <!-- Profile Badges -->
+    <string name="businesses_count_badge">%1$d Businesses</string>
+    <string name="expenses_count_badge">%1$d Expenses</string>
+    <string name="tasks_done_badge">%1$d/%2$d Tasks Done</string>
+
+</resources>

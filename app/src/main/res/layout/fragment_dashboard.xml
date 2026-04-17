@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:paddingBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dashboard"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_on_bg_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Track your business financial health"
+                android:textSize="14sp"
+                android:textColor="@color/text_on_bg_secondary"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Weather Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardWeather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/bg_card">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:id="@+id/imgWeatherIcon"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@android:drawable/ic_menu_day"
+                        app:tint="#f59e0b"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="16dp">
+                        <TextView
+                            android:id="@+id/tvWeatherTemp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--°C"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_on_card_primary"/>
+                        <TextView
+                            android:id="@+id/tvWeatherDesc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Loading weather..."
+                            android:textSize="13sp"
+                            android:textColor="@color/text_on_card_secondary"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvWeatherCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detecting..."
+                        android:textSize="12sp"
+                        android:textColor="@color/text_on_card_secondary"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Financial Summary Card (Main Dashboard) -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/bg_card">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Financial Summary"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/text_on_card_primary"
+                        android:layout_marginBottom="16dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Total Revenue"
+                                android:textSize="12sp"
+                                android:textColor="@color/text_on_card_secondary"/>
+                            <TextView
+                                android:id="@+id/tvTotalRevenue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="₱0.00"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:textColor="#10b981"/>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/divider"
+                            android:layout_marginHorizontal="16dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Net Profit/Loss"
+                                android:textSize="12sp"
+                                android:textColor="@color/text_on_card_secondary"/>
+                            <TextView
+                                android:id="@+id/tvTotalProfit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="₱0.00"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/text_on_card_primary"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Stats Stack -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="@color/bg_card">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:padding="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Total Budget" android:textSize="12sp" android:textColor="@color/text_on_card_secondary"/>
+                        <TextView android:id="@+id/tvTotalBudget" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:text="₱0"
+                            android:textSize="18sp" android:textStyle="bold" android:textColor="@color/text_on_card_primary"
+                            android:layout_marginTop="4dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="@color/bg_card">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:padding="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Total Spent" android:textSize="12sp" android:textColor="@color/text_on_card_secondary"/>
+                        <TextView android:id="@+id/tvTotalSpent" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:text="₱0"
+                            android:textSize="18sp" android:textStyle="bold" android:textColor="@color/text_on_card_primary"
+                            android:layout_marginTop="4dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Total Expenses -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/bg_card">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="18dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Total Expense Records" android:textSize="13sp" android:textColor="@color/text_on_card_secondary"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="12dp">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                            android:src="@android:drawable/ic_dialog_alert"
+                            app:tint="#f97316" android:layout_marginEnd="8dp"/>
+                        <TextView android:id="@+id/tvExpensesCount" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:text="0"
+                            android:textSize="26sp" android:textStyle="bold" android:textColor="@color/text_on_card_primary"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Overall Budget Progress -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/bg_card">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="18dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Overall Budget Progress" android:textStyle="bold" android:textSize="16sp"
+                        android:textColor="@color/text_on_card_primary"/>
+                    <TextView android:id="@+id/tvOverallSpentLine" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:layout_marginTop="4dp"
+                        android:text="₱0 of ₱0 spent" android:textSize="14sp" android:textColor="@color/text_on_card_secondary"/>
+
+                    <ProgressBar
+                        android:id="@+id/progressOverall"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_marginTop="16dp"
+                        android:max="100"
+                        android:progressDrawable="@android:drawable/progress_horizontal"
+                        android:progressTint="@color/white"
+                        android:backgroundTint="#334155"/>
+
+                    <TextView
+                        android:id="@+id/tvOverallPct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="0.0% of total budget used"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_on_card_secondary" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Chart Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/bg_card">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="18dp">
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical">
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Financial Overview" android:textStyle="bold" android:textSize="16sp"
+                                android:textColor="@color/text_on_card_primary"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Visualize your\nbusiness expenses" android:textSize="13sp" android:textColor="@color/text_on_card_secondary"/>
+                        </LinearLayout>
+
+                        <com.google.android.material.button.MaterialButtonToggleGroup
+                            android:id="@+id/toggleChartType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:singleSelection="true"
+                            app:selectionRequired="true"
+                            android:background="@drawable/bg_stat_box">
+                            <Button android:id="@+id/btnBarChart"
+                                style="@style/Widget.MaterialComponents.Button.TextButton"
+                                android:layout_width="wrap_content" android:layout_height="36dp"
+                                android:text="Bar" android:textSize="11sp"
+                                android:textColor="@color/text_on_card_primary"/>
+                            <Button android:id="@+id/btnPieChart"
+                                style="@style/Widget.MaterialComponents.Button.TextButton"
+                                android:layout_width="wrap_content" android:layout_height="36dp"
+                                android:text="Pie" android:textSize="11sp"
+                                android:textColor="@color/text_on_card_secondary"/>
+                        </com.google.android.material.button.MaterialButtonToggleGroup>
+                    </LinearLayout>
+
+                    <com.github.mikephil.charting.charts.BarChart
+                        android:id="@+id/barChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:layout_marginTop="16dp"/>
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/pieChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:layout_marginTop="16dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- My Businesses Title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="My Businesses"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_on_bg_primary" />
+
+                <!-- NEW SEARCH BAR -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilSearch"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false"
+                    app:startIconDrawable="@android:drawable/ic_menu_search"
+                    app:startIconTint="@color/text_on_card_secondary"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Search name..."
+                        android:textSize="13sp"
+                        android:padding="8dp"
+                        android:textColor="@color/text_on_bg_primary" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerBusinesses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false" />
+
+            <!-- Spacer for bottom bar -->
+            <View android:layout_width="match_parent" android:layout_height="120dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Filter Bar styled like navigation -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottomFilterCard"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom"
+        app:cardBackgroundColor="#1E293B"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="0dp">
+
+        <LinearLayout
+            android:id="@+id/bottomFilterLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="8dp">
+
+            <!-- All -->
+            <LinearLayout android:id="@+id/filterAll"
+                android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center"
+                android:background="@drawable/bg_nav_selected">
+                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                    android:src="@android:drawable/ic_menu_sort_alphabetically"
+                    android:rotation="-45" app:tint="#10b981"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="All" android:textSize="11sp" android:textColor="#10b981"/>
+                <TextView android:id="@+id/badgeAll" android:layout_width="18dp" android:layout_height="18dp"
+                    android:text="0" android:textColor="@color/white" android:textSize="10sp"
+                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#064E3B"/>
+            </LinearLayout>
+
+            <!-- Now -->
+            <LinearLayout android:id="@+id/filterNow"
+                android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                    android:src="@android:drawable/ic_menu_recent_history" app:tint="#94A3B8"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Now" android:textSize="11sp" android:textColor="#94A3B8"/>
+                <TextView android:id="@+id/badgeNow" android:layout_width="18dp" android:layout_height="18dp"
+                    android:text="0" android:textColor="@color/white" android:textSize="10sp"
+                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#334155"/>
+            </LinearLayout>
+
+            <!-- Incoming -->
+            <LinearLayout android:id="@+id/filterIncoming"
+                android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                    android:src="@android:drawable/ic_menu_send" app:tint="#94A3B8" android:rotation="-45"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Incoming" android:textSize="11sp" android:textColor="#94A3B8"/>
+                <TextView android:id="@+id/badgeIncoming" android:layout_width="18dp" android:layout_height="18dp"
+                    android:text="0" android:textColor="@color/white" android:textSize="10sp"
+                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#334155"/>
+            </LinearLayout>
+
+            <!-- Done -->
+            <LinearLayout android:id="@+id/filterDone"
+                android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+                android:orientation="vertical" android:gravity="center">
+                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                    android:src="@android:drawable/checkbox_on_background" app:tint="#94A3B8"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Done" android:textSize="11sp" android:textColor="#94A3B8"/>
+                <TextView android:id="@+id/badgeDone" android:layout_width="18dp" android:layout_height="18dp"
+                    android:text="0" android:textColor="@color/white" android:textSize="10sp"
+                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#334155"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnDashboardAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="88dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:backgroundTint="#10b981"
+        app:tint="@color/white"
+        app:elevation="12dp"
+        app:pressedTranslationZ="12dp"
+        app:fabSize="normal"
+        android:contentDescription="Add Business" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
