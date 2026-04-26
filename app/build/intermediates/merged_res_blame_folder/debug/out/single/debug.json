@@ -32,12 +32,20 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\menu\\bottom_nav_menu.xml"
     },
     {
+        "merged": "com.businesstracker.app-merged_res-60:/layout_fragment_dashboard.xml.flat",
+        "source": "com.businesstracker.app-main-62:/layout/fragment_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_activity_business_detail.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_business_detail.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_task.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_task.xml"
+    },
+    {
+        "merged": "com.businesstracker.app-merged_res-60:/layout_dialog_add_business.xml.flat",
+        "source": "com.businesstracker.app-main-62:/layout/dialog_add_business.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\drawable_ic_launcher_background.xml.flat",
@@ -58,10 +66,6 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_setting_toggle.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_setting_toggle.xml"
-    },
-    {
-        "merged": "com.businesstracker.app-merged_res-60:/layout_fragment_profile.xml.flat",
-        "source": "com.businesstracker.app-main-62:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_activity_main.xml.flat",
@@ -142,10 +146,6 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_dialog_add_task.xml.flat",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_add_task.xml"
-    },
-    {
-        "merged": "com.businesstracker.app-merged_res-60:/layout_activity_business_detail.xml.flat",
-        "source": "com.businesstracker.app-main-62:/layout/activity_business_detail.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-merged_res-60:\\layout_item_notification.xml.flat",

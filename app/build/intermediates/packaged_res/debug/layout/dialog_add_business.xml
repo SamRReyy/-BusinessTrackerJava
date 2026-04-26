@@ -8,12 +8,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Profile"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_on_bg_primary"
+            android:layout_marginBottom="20dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="12dp"
+            app:startIconDrawable="@android:drawable/ic_menu_myplaces"
+            app:startIconTint="@color/text_on_card_secondary"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etName"
@@ -26,7 +37,9 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="12dp"
+            app:startIconDrawable="@android:drawable/ic_menu_edit"
+            app:startIconTint="@color/text_on_card_secondary"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etDescription"
@@ -40,7 +53,9 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="12dp"
+            app:startIconDrawable="@android:drawable/ic_menu_agenda"
+            app:startIconTint="@color/text_on_card_secondary"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etBudget"
@@ -53,10 +68,12 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="24dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             app:boxStrokeColor="#10b981"
-            app:hintTextColor="#10b981">
+            app:hintTextColor="#10b981"
+            app:startIconDrawable="@android:drawable/ic_menu_send"
+            app:startIconTint="#10b981">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etRevenue"
                 android:layout_width="match_parent"
@@ -68,68 +85,81 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Theme Color"
-            android:textSize="13sp"
-            android:textColor="@color/text_on_bg_secondary"
-            android:layout_marginBottom="8dp" />
+            android:text="Choose Theme"
+            android:textStyle="bold"
+            android:textColor="@color/text_on_bg_primary"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
 
-        <RadioGroup
-            android:id="@+id/rgColors"
+        <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginBottom="16dp">
+            android:scrollbars="none"
+            android:background="@drawable/bg_stat_box"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp">
 
-            <RadioButton
-                android:id="@+id/rbGreen"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:button="@null"
-                android:background="@drawable/selector_color_green"
-                android:layout_margin="4dp"
-                android:checked="true" />
+            <RadioGroup
+                android:id="@+id/rgColors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
-            <RadioButton
-                android:id="@+id/rbPurple"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:button="@null"
-                android:background="@drawable/selector_color_purple"
-                android:layout_margin="4dp" />
+                <RadioButton
+                    android:id="@+id/rbGreen"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:button="@null"
+                    android:background="@drawable/selector_color_green"
+                    android:layout_margin="8dp"
+                    android:checked="true" />
 
-            <RadioButton
-                android:id="@+id/rbBlue"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:button="@null"
-                android:background="@drawable/selector_color_blue"
-                android:layout_margin="4dp" />
+                <RadioButton
+                    android:id="@+id/rbPurple"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:button="@null"
+                    android:background="@drawable/selector_color_purple"
+                    android:layout_margin="8dp" />
 
-            <RadioButton
-                android:id="@+id/rbAmber"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:button="@null"
-                android:background="@drawable/selector_color_amber"
-                android:layout_margin="4dp" />
+                <RadioButton
+                    android:id="@+id/rbBlue"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:button="@null"
+                    android:background="@drawable/selector_color_blue"
+                    android:layout_margin="8dp" />
 
-            <RadioButton
-                android:id="@+id/rbRose"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:button="@null"
-                android:background="@drawable/selector_color_rose"
-                android:layout_margin="4dp" />
-        </RadioGroup>
+                <RadioButton
+                    android:id="@+id/rbAmber"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:button="@null"
+                    android:background="@drawable/selector_color_amber"
+                    android:layout_margin="8dp" />
+
+                <RadioButton
+                    android:id="@+id/rbRose"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:button="@null"
+                    android:background="@drawable/selector_color_rose"
+                    android:layout_margin="8dp" />
+
+                <!-- Extra padding at the end to ensure the last color isn't cut off -->
+                <View android:layout_width="8dp" android:layout_height="1dp"/>
+            </RadioGroup>
+        </HorizontalScrollView>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Status"
-            android:textSize="13sp"
-            android:textColor="@color/text_on_bg_secondary"
-            android:layout_marginBottom="8dp" />
+            android:text="Current Status"
+            android:textStyle="bold"
+            android:textColor="@color/text_on_bg_primary"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
 
         <com.google.android.material.button.MaterialButtonToggleGroup
             android:id="@+id/toggleStatus"
@@ -137,7 +167,7 @@
             android:layout_height="wrap_content"
             app:singleSelection="true"
             app:selectionRequired="true"
-            android:layout_marginBottom="10dp">
+            android:layout_marginBottom="8dp">
             <Button
                 android:id="@+id/btnStatusNow"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
@@ -145,7 +175,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Now"
-                android:textSize="11sp" />
+                android:textAllCaps="false"
+                android:textSize="13sp" />
             <Button
                 android:id="@+id/btnStatusIncoming"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
@@ -153,7 +184,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Incoming"
-                android:textSize="11sp" />
+                android:textAllCaps="false"
+                android:textSize="13sp" />
             <Button
                 android:id="@+id/btnStatusDone"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
@@ -161,7 +193,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Done"
-                android:textSize="11sp" />
+                android:textAllCaps="false"
+                android:textSize="13sp" />
         </com.google.android.material.button.MaterialButtonToggleGroup>
 
     </LinearLayout>

@@ -4,12 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_on_bg_primary"
+        android:layout_marginBottom="20dp"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="12dp"
+        app:startIconDrawable="@android:drawable/ic_menu_edit"
+        app:startIconTint="@color/text_on_card_secondary"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etTitle"
@@ -22,13 +33,15 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="12dp"
+        app:startIconDrawable="@android:drawable/ic_menu_info_details"
+        app:startIconTint="@color/text_on_card_secondary"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etTaskDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Description"
+            android:hint="Description (Optional)"
             android:inputType="textMultiLine"
             android:minLines="2" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -36,13 +49,26 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:startIconDrawable="@android:drawable/ic_menu_my_calendar"
+        app:startIconTint="@color/text_on_card_secondary"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etDueDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Due Date (YYYY-MM-DD)"
-            android:inputType="date" />
+            android:hint="Due Date *"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="true" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications are automatically set for due dates."
+        android:textSize="12sp"
+        android:textColor="@color/text_on_bg_secondary"
+        android:layout_marginStart="4dp" />
 
 </LinearLayout>

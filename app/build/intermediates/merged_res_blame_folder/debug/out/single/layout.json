@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\dialog_add_task.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_add_task.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\activity_login.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\dialog_add_task.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_add_task.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\dialog_edit_business.xml",
@@ -20,10 +20,6 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_notification.xml"
     },
     {
-        "merged": "com.businesstracker.app-mergeDebugResources-59:/layout/activity_business_detail.xml",
-        "source": "com.businesstracker.app-main-62:/layout/activity_business_detail.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\fragment_dashboard.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\fragment_dashboard.xml"
     },
@@ -34,10 +30,6 @@
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\activity_splash.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "com.businesstracker.app-mergeDebugResources-59:/layout/fragment_profile.xml",
-        "source": "com.businesstracker.app-main-62:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\item_business.xml",
@@ -60,6 +52,10 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_full_photo.xml"
     },
     {
+        "merged": "com.businesstracker.app-mergeDebugResources-59:/layout/fragment_dashboard.xml",
+        "source": "com.businesstracker.app-main-62:/layout/fragment_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\layout_profile_popup.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\layout_profile_popup.xml"
     },
@@ -68,20 +64,24 @@
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\item_expense.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_expense.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\activity_business_detail.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\activity_business_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\item_sale.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_sale.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\item_expense.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_expense.xml"
+    },
+    {
+        "merged": "com.businesstracker.app-mergeDebugResources-59:/layout/dialog_add_business.xml",
+        "source": "com.businesstracker.app-main-62:/layout/dialog_add_business.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\dialog_add_business.xml",
         "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\dialog_add_business.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\item_sale.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-main-62:\\layout\\item_sale.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.businesstracker.app-mergeDebugResources-59:\\layout\\fragment_profile.xml",

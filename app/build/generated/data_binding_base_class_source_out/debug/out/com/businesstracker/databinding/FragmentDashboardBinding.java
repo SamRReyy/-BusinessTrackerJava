@@ -83,6 +83,18 @@ public final class FragmentDashboardBinding implements ViewBinding {
   public final ImageView imgWeatherIcon;
 
   @NonNull
+  public final ImageView ivFilterAll;
+
+  @NonNull
+  public final ImageView ivFilterDone;
+
+  @NonNull
+  public final ImageView ivFilterIncoming;
+
+  @NonNull
+  public final ImageView ivFilterNow;
+
+  @NonNull
   public final PieChart pieChart;
 
   @NonNull
@@ -99,6 +111,18 @@ public final class FragmentDashboardBinding implements ViewBinding {
 
   @NonNull
   public final TextView tvExpensesCount;
+
+  @NonNull
+  public final TextView tvFilterAll;
+
+  @NonNull
+  public final TextView tvFilterDone;
+
+  @NonNull
+  public final TextView tvFilterIncoming;
+
+  @NonNull
+  public final TextView tvFilterNow;
 
   @NonNull
   public final TextView tvOverallPct;
@@ -135,10 +159,14 @@ public final class FragmentDashboardBinding implements ViewBinding {
       @NonNull CardView cardWeather, @NonNull TextInputEditText etSearch,
       @NonNull LinearLayout filterAll, @NonNull LinearLayout filterDone,
       @NonNull LinearLayout filterIncoming, @NonNull LinearLayout filterNow,
-      @NonNull ImageView imgWeatherIcon, @NonNull PieChart pieChart,
+      @NonNull ImageView imgWeatherIcon, @NonNull ImageView ivFilterAll,
+      @NonNull ImageView ivFilterDone, @NonNull ImageView ivFilterIncoming,
+      @NonNull ImageView ivFilterNow, @NonNull PieChart pieChart,
       @NonNull ProgressBar progressOverall, @NonNull RecyclerView recyclerBusinesses,
       @NonNull TextInputLayout tilSearch, @NonNull MaterialButtonToggleGroup toggleChartType,
-      @NonNull TextView tvExpensesCount, @NonNull TextView tvOverallPct,
+      @NonNull TextView tvExpensesCount, @NonNull TextView tvFilterAll,
+      @NonNull TextView tvFilterDone, @NonNull TextView tvFilterIncoming,
+      @NonNull TextView tvFilterNow, @NonNull TextView tvOverallPct,
       @NonNull TextView tvOverallSpentLine, @NonNull TextView tvTotalBudget,
       @NonNull TextView tvTotalProfit, @NonNull TextView tvTotalRevenue,
       @NonNull TextView tvTotalSpent, @NonNull TextView tvWeatherCity,
@@ -161,12 +189,20 @@ public final class FragmentDashboardBinding implements ViewBinding {
     this.filterIncoming = filterIncoming;
     this.filterNow = filterNow;
     this.imgWeatherIcon = imgWeatherIcon;
+    this.ivFilterAll = ivFilterAll;
+    this.ivFilterDone = ivFilterDone;
+    this.ivFilterIncoming = ivFilterIncoming;
+    this.ivFilterNow = ivFilterNow;
     this.pieChart = pieChart;
     this.progressOverall = progressOverall;
     this.recyclerBusinesses = recyclerBusinesses;
     this.tilSearch = tilSearch;
     this.toggleChartType = toggleChartType;
     this.tvExpensesCount = tvExpensesCount;
+    this.tvFilterAll = tvFilterAll;
+    this.tvFilterDone = tvFilterDone;
+    this.tvFilterIncoming = tvFilterIncoming;
+    this.tvFilterNow = tvFilterNow;
     this.tvOverallPct = tvOverallPct;
     this.tvOverallSpentLine = tvOverallSpentLine;
     this.tvTotalBudget = tvTotalBudget;
@@ -307,6 +343,30 @@ public final class FragmentDashboardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.ivFilterAll;
+      ImageView ivFilterAll = ViewBindings.findChildViewById(rootView, id);
+      if (ivFilterAll == null) {
+        break missingId;
+      }
+
+      id = R.id.ivFilterDone;
+      ImageView ivFilterDone = ViewBindings.findChildViewById(rootView, id);
+      if (ivFilterDone == null) {
+        break missingId;
+      }
+
+      id = R.id.ivFilterIncoming;
+      ImageView ivFilterIncoming = ViewBindings.findChildViewById(rootView, id);
+      if (ivFilterIncoming == null) {
+        break missingId;
+      }
+
+      id = R.id.ivFilterNow;
+      ImageView ivFilterNow = ViewBindings.findChildViewById(rootView, id);
+      if (ivFilterNow == null) {
+        break missingId;
+      }
+
       id = R.id.pieChart;
       PieChart pieChart = ViewBindings.findChildViewById(rootView, id);
       if (pieChart == null) {
@@ -340,6 +400,30 @@ public final class FragmentDashboardBinding implements ViewBinding {
       id = R.id.tvExpensesCount;
       TextView tvExpensesCount = ViewBindings.findChildViewById(rootView, id);
       if (tvExpensesCount == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFilterAll;
+      TextView tvFilterAll = ViewBindings.findChildViewById(rootView, id);
+      if (tvFilterAll == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFilterDone;
+      TextView tvFilterDone = ViewBindings.findChildViewById(rootView, id);
+      if (tvFilterDone == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFilterIncoming;
+      TextView tvFilterIncoming = ViewBindings.findChildViewById(rootView, id);
+      if (tvFilterIncoming == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFilterNow;
+      TextView tvFilterNow = ViewBindings.findChildViewById(rootView, id);
+      if (tvFilterNow == null) {
         break missingId;
       }
 
@@ -400,10 +484,11 @@ public final class FragmentDashboardBinding implements ViewBinding {
       return new FragmentDashboardBinding((CoordinatorLayout) rootView, badgeAll, badgeDone,
           badgeIncoming, badgeNow, barChart, bottomFilterCard, bottomFilterLayout, btnBarChart,
           btnDashboardAdd, btnPieChart, cardWeather, etSearch, filterAll, filterDone,
-          filterIncoming, filterNow, imgWeatherIcon, pieChart, progressOverall, recyclerBusinesses,
-          tilSearch, toggleChartType, tvExpensesCount, tvOverallPct, tvOverallSpentLine,
-          tvTotalBudget, tvTotalProfit, tvTotalRevenue, tvTotalSpent, tvWeatherCity, tvWeatherDesc,
-          tvWeatherTemp);
+          filterIncoming, filterNow, imgWeatherIcon, ivFilterAll, ivFilterDone, ivFilterIncoming,
+          ivFilterNow, pieChart, progressOverall, recyclerBusinesses, tilSearch, toggleChartType,
+          tvExpensesCount, tvFilterAll, tvFilterDone, tvFilterIncoming, tvFilterNow, tvOverallPct,
+          tvOverallSpentLine, tvTotalBudget, tvTotalProfit, tvTotalRevenue, tvTotalSpent,
+          tvWeatherCity, tvWeatherDesc, tvWeatherTemp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

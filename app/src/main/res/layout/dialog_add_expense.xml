@@ -8,25 +8,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense Details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_on_bg_primary"
+            android:layout_marginBottom="20dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="12dp"
+            app:startIconDrawable="@android:drawable/ic_menu_edit"
+            app:startIconTint="@color/text_on_card_secondary"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Expense Type * (e.g. Pesticide, Labor)"
+                android:hint="Expense Type *"
                 android:inputType="textCapWords" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="12dp"
+            app:startIconDrawable="@android:drawable/ic_menu_agenda"
+            app:startIconTint="@color/text_on_card_secondary"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etAmount"
@@ -39,9 +52,10 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="12dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            app:startIconDrawable="@android:drawable/ic_menu_my_calendar">
+            app:startIconDrawable="@android:drawable/ic_menu_my_calendar"
+            app:startIconTint="@color/text_on_card_secondary">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etDate"
                 android:layout_width="match_parent"
@@ -56,13 +70,13 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="24dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Description"
+                android:hint="Description (Optional)"
                 android:inputType="textMultiLine"
                 android:minLines="2" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -70,30 +84,34 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Receipt Photo (Optional)"
-            android:textColor="@color/text_on_bg_secondary"
-            android:textSize="12sp"
-            android:layout_marginBottom="8dp" />
+            android:text="Receipt / Proof"
+            android:textStyle="bold"
+            android:textColor="@color/text_on_bg_primary"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center_vertical">
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_stat_box"
+            android:padding="12dp">
 
             <FrameLayout
                 android:id="@+id/framePhoto"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="@drawable/bg_avatar_circle"
-                android:backgroundTint="@color/gray_100">
+                android:layout_width="80dp"
+                android:layout_height="80dp">
 
-                <ImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/ivExpensePhoto"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
                     android:src="@android:drawable/ic_menu_camera"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CircleImage"
+                    android:background="#f1f5f9"
+                    android:padding="20dp"
                     app:tint="@color/gray_700" />
 
                 <ImageButton
@@ -122,15 +140,21 @@
                     android:text="Take Photo"
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:textColor="@color/blue_500"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:gravity="start|center_vertical"
                     app:icon="@android:drawable/ic_menu_camera" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnUploadPhoto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Upload Gallery"
+                    android:text="Gallery"
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:textColor="@color/blue_500"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:gravity="start|center_vertical"
                     app:icon="@android:drawable/ic_menu_gallery" />
             </LinearLayout>
         </LinearLayout>

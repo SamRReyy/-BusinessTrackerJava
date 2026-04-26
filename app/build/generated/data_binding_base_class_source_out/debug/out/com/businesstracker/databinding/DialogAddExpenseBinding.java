@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,6 +13,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.businesstracker.R;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -48,13 +48,13 @@ public final class DialogAddExpenseBinding implements ViewBinding {
   public final FrameLayout framePhoto;
 
   @NonNull
-  public final ImageView ivExpensePhoto;
+  public final ShapeableImageView ivExpensePhoto;
 
   private DialogAddExpenseBinding(@NonNull ScrollView rootView, @NonNull ImageButton btnRemovePhoto,
       @NonNull MaterialButton btnTakePhoto, @NonNull MaterialButton btnUploadPhoto,
       @NonNull TextInputEditText etAmount, @NonNull TextInputEditText etDate,
       @NonNull TextInputEditText etDescription, @NonNull TextInputEditText etType,
-      @NonNull FrameLayout framePhoto, @NonNull ImageView ivExpensePhoto) {
+      @NonNull FrameLayout framePhoto, @NonNull ShapeableImageView ivExpensePhoto) {
     this.rootView = rootView;
     this.btnRemovePhoto = btnRemovePhoto;
     this.btnTakePhoto = btnTakePhoto;
@@ -143,7 +143,7 @@ public final class DialogAddExpenseBinding implements ViewBinding {
       }
 
       id = R.id.ivExpensePhoto;
-      ImageView ivExpensePhoto = ViewBindings.findChildViewById(rootView, id);
+      ShapeableImageView ivExpensePhoto = ViewBindings.findChildViewById(rootView, id);
       if (ivExpensePhoto == null) {
         break missingId;
       }

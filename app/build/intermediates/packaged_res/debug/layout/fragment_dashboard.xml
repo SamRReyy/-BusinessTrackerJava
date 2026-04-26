@@ -402,55 +402,54 @@
             <!-- All -->
             <LinearLayout android:id="@+id/filterAll"
                 android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
-                android:orientation="vertical" android:gravity="center"
-                android:background="@drawable/bg_nav_selected">
-                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                android:orientation="vertical" android:gravity="center">
+                <ImageView android:id="@+id/ivFilterAll" android:layout_width="20dp" android:layout_height="20dp"
                     android:src="@android:drawable/ic_menu_sort_alphabetically"
-                    android:rotation="-45" app:tint="#10b981"/>
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="All" android:textSize="11sp" android:textColor="#10b981"/>
+                    android:rotation="-45" app:tint="#94A3B8"/>
+                <TextView android:id="@+id/tvFilterAll" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="All" android:textSize="11sp" android:textColor="#94A3B8"/>
                 <TextView android:id="@+id/badgeAll" android:layout_width="18dp" android:layout_height="18dp"
                     android:text="0" android:textColor="@color/white" android:textSize="10sp"
-                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#064E3B"/>
+                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#ef4444"/>
             </LinearLayout>
 
             <!-- Now -->
             <LinearLayout android:id="@+id/filterNow"
                 android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
                 android:orientation="vertical" android:gravity="center">
-                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                <ImageView android:id="@+id/ivFilterNow" android:layout_width="20dp" android:layout_height="20dp"
                     android:src="@android:drawable/ic_menu_recent_history" app:tint="#94A3B8"/>
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                <TextView android:id="@+id/tvFilterNow" android:layout_width="wrap_content" android:layout_height="wrap_content"
                     android:text="Now" android:textSize="11sp" android:textColor="#94A3B8"/>
                 <TextView android:id="@+id/badgeNow" android:layout_width="18dp" android:layout_height="18dp"
                     android:text="0" android:textColor="@color/white" android:textSize="10sp"
-                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#334155"/>
+                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#ef4444"/>
             </LinearLayout>
 
             <!-- Incoming -->
             <LinearLayout android:id="@+id/filterIncoming"
                 android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
                 android:orientation="vertical" android:gravity="center">
-                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                <ImageView android:id="@+id/ivFilterIncoming" android:layout_width="20dp" android:layout_height="20dp"
                     android:src="@android:drawable/ic_menu_send" app:tint="#94A3B8" android:rotation="-45"/>
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                <TextView android:id="@+id/tvFilterIncoming" android:layout_width="wrap_content" android:layout_height="wrap_content"
                     android:text="Incoming" android:textSize="11sp" android:textColor="#94A3B8"/>
                 <TextView android:id="@+id/badgeIncoming" android:layout_width="18dp" android:layout_height="18dp"
                     android:text="0" android:textColor="@color/white" android:textSize="10sp"
-                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#334155"/>
+                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#ef4444"/>
             </LinearLayout>
 
             <!-- Done -->
             <LinearLayout android:id="@+id/filterDone"
                 android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
                 android:orientation="vertical" android:gravity="center">
-                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                <ImageView android:id="@+id/ivFilterDone" android:layout_width="20dp" android:layout_height="20dp"
                     android:src="@android:drawable/checkbox_on_background" app:tint="#94A3B8"/>
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                <TextView android:id="@+id/tvFilterDone" android:layout_width="wrap_content" android:layout_height="wrap_content"
                     android:text="Done" android:textSize="11sp" android:textColor="#94A3B8"/>
                 <TextView android:id="@+id/badgeDone" android:layout_width="18dp" android:layout_height="18dp"
                     android:text="0" android:textColor="@color/white" android:textSize="10sp"
-                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#334155"/>
+                    android:gravity="center" android:background="@drawable/bg_badge_rounded" android:backgroundTint="#ef4444"/>
             </LinearLayout>
 
         </LinearLayout>

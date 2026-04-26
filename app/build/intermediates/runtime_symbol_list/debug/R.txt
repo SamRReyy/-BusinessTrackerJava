@@ -3541,6 +3541,10 @@ int id ivArrowCurrency 0x7f080152
 int id ivAvatar 0x7f080153
 int id ivExpensePhoto 0x7f080154
 int id ivExpenseThumbnail 0x7f080155
+int id ivFilterAll 0x7f0802e4
+int id ivFilterDone 0x7f0802e5
+int id ivFilterIncoming 0x7f0802e6
+int id ivFilterNow 0x7f0802e7
 int id ivFullPhoto 0x7f080156
 int id ivNotifIcon 0x7f080157
 int id ivSplashLogo 0x7f080158
@@ -3867,6 +3871,10 @@ int id tvExpenseDate 0x7f080298
 int id tvExpenseDescription 0x7f080299
 int id tvExpenseType 0x7f08029a
 int id tvExpensesCount 0x7f08029b
+int id tvFilterAll 0x7f0802e8
+int id tvFilterDone 0x7f0802e9
+int id tvFilterIncoming 0x7f0802ea
+int id tvFilterNow 0x7f0802eb
 int id tvForgotPassword 0x7f08029c
 int id tvFullDescription 0x7f08029d
 int id tvFullTaskDescription 0x7f08029e

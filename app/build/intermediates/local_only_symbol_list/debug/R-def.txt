@@ -145,6 +145,10 @@ id ivArrowCurrency
 id ivAvatar
 id ivExpensePhoto
 id ivExpenseThumbnail
+id ivFilterAll
+id ivFilterDone
+id ivFilterIncoming
+id ivFilterNow
 id ivFullPhoto
 id ivNotifIcon
 id ivSplashLogo
@@ -217,6 +221,10 @@ id tvExpenseDate
 id tvExpenseDescription
 id tvExpenseType
 id tvExpensesCount
+id tvFilterAll
+id tvFilterDone
+id tvFilterIncoming
+id tvFilterNow
 id tvForgotPassword
 id tvFullDescription
 id tvFullTaskDescription
